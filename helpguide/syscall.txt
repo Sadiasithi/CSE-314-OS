@@ -1,0 +1,35 @@
+# if create new file, add in Makefile
+for syscall
+//in kernel
+1.define it in syscall.h
+2.extern and [] in syscall.c
+3.write the system call in sysproc.c
+
+//in user, for those functions which are in the user created c file
+4.write the functions with parameters in user.h
+5.entry it in usys.pl
+
+
+//defs.h
+#if there is any struct, add in defs.h
+#the proc.c functions are also defined in defs.h, so if we add some function in proc.c, we need to define it in defs.h
+
+#if we need any extra function in the syscalls(sysproc.c), we have to write that in proc.c and define it in defs.h, 
+and if we need any extra variable, then in proc.h
+
+
+argint(int n, int *ip)
+argaddr(int n, uint64 *ip)
+int argstr(int n, char *buf, int max);
+
+
+
+for git clone 
+git clone https://github.com/shuaibw/xv6-riscv --depth=1
+
+for git apply
+git apply --whitespace=fix test.patch
+
+
+to made patch
+git add --all; git diff HEAD > <patch file name>

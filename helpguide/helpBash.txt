@@ -1,0 +1,52 @@
+ls / bin /user/bin | sort | uniq -C(for repeat count) | sort -nr(number onujayi, noile 1 er por 10 asbe) | head -n 5(top 5)
+
+
+cat shakespeare.txt | head -n 5(consider each line as word, we need to split the words from the sentence)
+
+tr -c '[:alnum:]' '[\n*]' < Shakespeare.txt | head -n 5
+      (replace all space, tab with new line)
+
+tr -c '[:alnum:]' '[\n*]' < Shakespeare.txt | head -n 5 | tr '[:upper:]' '[:lower]' | sort | uniq -c | sort -nr | head -n 5
+                         (r for decendent)
+
+mkdir --help | less
+
+tail -F new.txt -> if we change somewhere else, it will show the change here
+
+vim - enter 
+press i to  start work
+first click escape
+shift + : + w + q
+
+
+
+in vim -> to direct run 2005119.py as print_hello
+shift o -> 
+#!/usr/bin/python3
+
+./print_hello -> permission denied
+
+chmod +x print_hello
+./print_hello
+
+
+ctrl + R -> see suggestions
+
+sudo chown root print_hello
+
+now we have only admin permission for executing print_hello .
+then we can use sudo
+
+./print_hello; -> permission denied
+then sudo  !! -> (!! means do the previous thing -> ./print_hello)
+
+
+
+getnet group | grep "sudo"
+
+
+ln -s ~directory shortcut -> shortcut
+
+
+
+ 
