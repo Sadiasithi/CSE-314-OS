@@ -1,0 +1,11 @@
+true
+zip
+c cpp
+100
+5
+/home/sithi/os/2005119/submissions
+2005001 2005010
+/home/sithi/os/2005119/submissions/expected_output.txt
+10
+/home/sithi/os/2005119/plagiarism.txt
+100

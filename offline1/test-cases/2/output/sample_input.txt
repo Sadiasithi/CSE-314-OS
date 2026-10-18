@@ -1,0 +1,11 @@
+false
+zip rar
+c cpp python
+100
+5
+submissions
+2005001 2005010
+submissions/expected_output.txt
+10
+plagiarism.txt
+100

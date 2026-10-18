@@ -1,0 +1,11 @@
+id,marks,marks_deducted,total_marks,remarks
+2005001,90,10,80,issue case #1
+2005002,0,10,-10,issue case #2
+2005003,0,10,-10,issue case #3
+2005004,0,10,-10,issue case #3
+2005005,80,0,80,
+2005006,100,0,100,
+2005007,50,0,50,
+2005008,80,0,80,
+2005009,90,0,90,plagiarism detected
+2005010,0,10,-10,issue case #3
